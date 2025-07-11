@@ -1,7 +1,5 @@
-// src/components/GoogleLoginButton.jsx
 import React from "react";
 import { FcGoogle } from "react-icons/fc";
-// import "./GoogleLoginButton.css";
 
 const GoogleLoginButton = ({ onClick }) => {
   return (

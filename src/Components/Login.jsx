@@ -20,12 +20,12 @@ const Login = () => {
   };
 
   return (
-    <Container- className="d-flex vh-100  justify-content-center align-items-center bg-dark">
+    <Container className="d-flex vh-100  justify-content-center align-items-center bg-dark">
       <div className="text-center p-5 glass-card text-white">
         <h2 className="mb-4">Welcome to MyApp</h2>
         <GoogleLoginBtn onClick={handleLogin} />
       </div>
-    </Container->
+    </Container>
   );
 };
 

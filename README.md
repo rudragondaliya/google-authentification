@@ -72,16 +72,6 @@ npm run dev   # or npm start if using Create React App
 
 ---
 
-## 📸 Screenshots
-
-*You can add your own screenshots like below:*
-
-| Login Page                      | Home Page                     |
-| ------------------------------- | ----------------------------- |
-| ![Login](screenshots/login.png) | ![Home](screenshots/home.png) |
-
----
-
 ## 👨‍💻 Author
 
 **Rudra Gondaliya**

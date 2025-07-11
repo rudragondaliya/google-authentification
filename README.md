@@ -1,12 +1,95 @@
-# React + Vite
+---
+# ⚛️ React Login & Home App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React project demonstrating user navigation between a **Login Page** and a **Home Page** using **React Router** and styled with **Bootstrap**. The app is deployed using **Firebase Hosting**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## Expanding the ESLint configuration
+🔗 [https://le-auth-645ae.web.app/](https://le-auth-645ae.web.app/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> Click the link to view the live working demo.
+
+---
+
+## 🚀 Features
+
+- 🔐 Login Page
+- 🏠 Home Page
+- 🔁 Navigation with React Router DOM
+- 🎨 Clean UI using Bootstrap 5
+- ☁️ Hosted on Firebase
+
+---
+
+## 🛠️ Tech Stack
+
+- [React](https://reactjs.org/)
+- [React Router DOM](https://reactrouter.com/)
+- [Bootstrap](https://getbootstrap.com/)
+- [Firebase Hosting](https://firebase.google.com/docs/hosting)
+
+---
+
+## 📁 Project Structure
+
+```
+
+src/
+├── Components/
+│   ├── Home.jsx
+│   └── Login.jsx
+├── App.jsx
+└── index.js
+
+````
+
+---
+
+## 🔧 Installation & Setup
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the development server
+npm run dev   # or npm start if using Create React App
+````
+
+---
+
+## 🔄 Routing Info
+
+| Path    | Component |
+| ------- | --------- |
+| `/`     | Login     |
+| `/home` | Home      |
+
+---
+
+## 📸 Screenshots
+
+*You can add your own screenshots like below:*
+
+| Login Page                      | Home Page                     |
+| ------------------------------- | ----------------------------- |
+| ![Login](screenshots/login.png) | ![Home](screenshots/home.png) |
+
+---
+
+## 👨‍💻 Author
+
+**Rudra Gondaliya**
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
